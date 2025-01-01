@@ -57,7 +57,6 @@ const getPRData = async () => {
 const getData = async () => {
   repoName = getRepoName();
   stars = await getStars(repoName);
-  console.log(stars);
   if (!stars) {
     return false;
   }
@@ -145,7 +144,6 @@ export const getProjectAnalysis = async (proChatRef: React.MutableRefObject<ProC
     return;
   }
   const prompt = await buildAnalysisPrompt();
-  console.log(prompt);
   proChatRef?.current?.sendMessage(prompt);
   const chats = proChatRef?.current?.getChats();
   if (chats && chats.length > 0) {
