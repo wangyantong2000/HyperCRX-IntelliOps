@@ -124,5 +124,20 @@
   "error_get_user_info": "获取用户信息失败：{{status}}",
   "error_get_file": "该路径是一个目录，而不是文件",
   "github_token_not_found": "GitHub 的 token 没有找到。\n请记得在扩展程序的设置页面中绑定您的账号。",
-  "gitee_token_not_found": "Gitee 的 token 没有找到。\n请记得在扩展程序的设置页面中绑定您的账号。"
+  "gitee_token_not_found": "Gitee 的 token 没有找到。\n请记得在扩展程序的设置页面中绑定您的账号。",
+  "oss_gpt_starters_introduce": "介绍一下自己",
+  "oss_gpt_hello_message": "你好 👋 ，我是来自X-lab的智能问答机器人，你可以向我进行提问。举例如下：",
+  "oss_gpt_llm_info_error": "配置信息有误，请再次确认，输入正确的配置信息。",
+  "oss_gpt_model_name": "模型名称",
+  "oss_gpt_model_name_rule_message": "请输入调用的模型名称！",
+  "oss_gpt_base_url": "接口路径",
+  "oss_gpt_base_url_rule_message": "请输入接口路径！",
+  "oss_gpt_api_key": "密钥配置",
+  "oss_gpt_api_key_rule_message": "请输入密钥配置！",
+  "oss_gpt_llm_info_btn": "确认",
+  "oss_gpt_llm_switch": "模型切换",
+  "oss_gpt_summary": "文档总结",
+  "oss_gpt_analysis": "项目分析",
+  "oss_gpt_summary_error": "该页面不存在文档文件。",
+  "oss_gpt_analysis_error": "该项目数据太少不支持项目分析功能。"
 }
