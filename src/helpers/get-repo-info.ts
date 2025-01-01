@@ -49,3 +49,12 @@ export async function isPublicRepo() {
 export async function isPublicRepoWithMeta() {
   return (await isPublicRepo()) && ((await metaStore.has(getRepoName())) || (await metaStore.has(getRepoNameByPage())));
 }
+export function getUsername() {
+  return pageDetect.utils.getUsername();
+}
+export async function hasCode() {
+  return pageDetect.hasCode();
+}
+export async function getRepositoryInfo() {
+  return pageDetect.utils.getRepositoryInfo();
+}

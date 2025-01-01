@@ -1,6 +1,6 @@
 Language : [English](./README.md) | 中文
 
-<h1 align="center">HyperCRX-IntelliOps</h1>
+<h1 align="center">Hypercrx</h1>
 
 <div align="center">
 
@@ -12,7 +12,7 @@ Language : [English](./README.md) | 中文
 
 </div>
 
-`HyperCRX` (发音: 'Hai-puh CRX') 浏览器插件项目旨在通过直接往 GitHub 页面中插入各类可视化看板的形式，帮助用户快速追踪、挖掘和洞察项目与开发者的各类行为数据。`HyperCRX-IntelliOps`为社区的数字化运营和分析提供有效支撑。HyperCRX 智能操作版通过智能自动化提升性能。
+`Hypercrx` (发音: 'Hai-puh CRX') 浏览器插件项目旨在通过直接往 GitHub 页面中插入各类可视化看板的形式，帮助用户快速追踪、挖掘和洞察项目与开发者的各类行为数据，为社区的数字化运营和分析提供有效支撑。
 
 ## 安装与使用 📢
 

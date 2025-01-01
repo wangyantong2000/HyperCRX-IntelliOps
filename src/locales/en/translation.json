@@ -125,5 +125,20 @@
   "error_get_user_info": "Failed to get user info: {{status}}",
   "error_get_file": "The path is a directory, not a file.",
   "github_token_not_found": "GitHub token not found.\nPlease bind your account in the Settings page of the extension.",
-  "gitee_token_not_found": "Gitee token not found.\nPlease bind your account in the Settings page of the extension."
+  "gitee_token_not_found": "Gitee token not found.\nPlease bind your account in the Settings page of the extension.",
+  "oss_gpt_starters_introduce": "Introduce yourself",
+  "oss_gpt_hello_message": "Hello 👋 , I am an intelligent Q&A robot from X-lab, you can ask me questions. For example:",
+  "oss_gpt_llm_info_error": "The configuration information is incorrect. Please confirm again and enter the correct configuration information.",
+  "oss_gpt_model_name": "Model Name",
+  "oss_gpt_model_name_rule_message": "Please enter Model Name!",
+  "oss_gpt_base_url": "Base Url",
+  "oss_gpt_base_url_rule_message": "Please enter Base Url!",
+  "oss_gpt_api_key": "API Key",
+  "oss_gpt_api_key_rule_message": "Please enter API key!",
+  "oss_gpt_llm_info_btn": "confirm",
+  "oss_gpt_llm_switch": "Switch Model",
+  "oss_gpt_summary": "Document Summary",
+  "oss_gpt_analysis": "Project Analysis",
+  "oss_gpt_summary_error": "There is no document file on this page.",
+  "oss_gpt_analysis_error": "The project has too little data to support project analysis functionality."
 }
