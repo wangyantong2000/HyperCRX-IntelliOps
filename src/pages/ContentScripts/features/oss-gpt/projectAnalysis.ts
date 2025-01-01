@@ -81,32 +81,34 @@ const buildAnalysisPrompt = async () => {
   You are a professional data analyst. Your task is to analyze the data performance of a GitHub project and generate a clear, concise report to help users quickly understand the project's status and trends. Additionally, provide actionable suggestions for project operators.
   The project name is ${repoName}.
 
-  ### Data Structure:
-  1. **Stars**: Monthly total number of new stars.
-  2. **Forks**: Monthly total number of new forks.
-  3. **Activity**: Monthly community activity index.
-  4. **OpenRank**: Monthly OpenRank value.
-  5. **Participant**: Monthly total number of participants (e.g., commits, comments, etc.).
-  6. **Contributor**: Monthly total number of contributors (e.g., users submitting code).
-  7. **Issue Details**:
-     - Issues Opened: Number of issues opened each month.
-     - Issues Closed: Number of issues closed each month.
-     - Issue Comments: Total number of comments on all issues each month.
-  8. **PR Details**:
-     - PRs Opened: Number of PRs opened each month.
-     - PRs Merged: Number of PRs merged each month.
-     - PR Reviews: Total number of PR reviews each month.
+   ### Data Structure:
+  1. **Stars**: Number of new stars gained each month
+  2. **Forks**: Number of new forks created each month
+  3. **Activity**: Project's activity index changes each month
+  4. **OpenRank**: Project's OpenRank value changes each month
+  5. **Participant**: Number of new participants each month 
+  6. **Contributor**: Number of new code contributors each month
+  7. **Issue Details** (monthly changes):
+     - Issues Opened: Number of new issues opened
+     - Issues Closed: Number of issues closed
+     - Issue Comments: Number of new comments on issues
+  8. **PR Details** (monthly changes):
+     - PRs Opened: Number of new PRs opened
+     - PRs Merged: Number of PRs merged
+     - PR Reviews: Number of new PR reviews
   
-  ### Analysis Goals:
-  1. **Data Summary**:
+   ### Analysis Goals:
+  1. **Monthly Growth Analysis**:
      - Summarize the overall state of the project.
      - Trends in activity and OpenRank to determine whether the community is growing healthily.
+     - Identify significant changes or patterns in monthly data
   2. **Insights and Findings**:
-     - Identify bottlenecks in issue and PR management.
-     - Highlight peaks or troughs in community activity and analyze potential causes.
+     - Highlight months with notable activity changes
+     - Analyze seasonal patterns if any
   3. **Suggestions for Improvement**:
      - Provide suggestions for increasing community engagement or attracting new contributors.
      - Offer strategies to optimize issue and PR management .
+
   4. **Language**: Write in ${language}
   ### Input Data:
   - Stars: ${formatData(stars)}
