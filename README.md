@@ -12,17 +12,13 @@
 
 `Hypercrx` (发音: 'Hai-puh CRX') 浏览器插件项目旨在通过直接往 GitHub 页面中插入各类可视化看板的形式，帮助用户快速追踪、挖掘和洞察项目与开发者的各类行为数据，为社区的数字化运营和分析提供有效支撑。
 
-## 安装与使用 📢
-
-<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle"> [前往 Chrome 商店安装插件](https://chrome.google.com/webstore/detail/hypercrx/ijchfbpdgeljmhnhokmekkecpbdkgabc)
-
-<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/edge/edge.svg" width="48" alt="Edge" valign="middle"> [前往 Edge 商店安装插件](https://microsoftedge.microsoft.com/addons/detail/hypercrx/lbbajaehiibofpconjgdjonmkidpcome)
-
-获取更多信息，请查阅[安装指南](./INSTALLATION.zh-CN.md)。
 
 ## 数据来源
 
 `Hypercrx-IntelliOps`呈现的所有数据都由[OpenDigger](https://github.com/X-lab2017/open-digger)产生。OpenDigger 是一个聚焦于开源分析的开源项目。数据会在每个月第二天更新。
+
+## 演示视频
+![Demo Video](./复赛/演示视频.mp4)
 
 ## 可视化看板 🔥🔥🔥
 
@@ -140,7 +136,10 @@
 
 OSS-GPT 是集成了[DocsGPT](https://github.com/arc53/docsgpt)能力的开源项目文档问答机器人。对已经支持的项目，只需打开对应的项目仓库主页，即可询问有关于该仓库的任何问题。
 
-主要提供问答、项目文档摘要生成、代码注释生成等多类型的智能化支持，并且支持用户与 OSS-GPT 实时对话，在输出形式上具备流式数据输出和 Markdown 格式输出的能力，最终可实现自动化的项目洞察分析，整体聚焦于利用 OSS-GPT 为项目相关操作提供智能辅助与深度分析功能。
+支持多种大语言模型接口，例如DeepSeek系列、OpenAI系列、本地部署在Ollama上的开源模型等符合OpenAI的接口规范的模型。填写配置，一键切换模型实例。
+OSS-GPT，使用ProChat组件进行开发，支持常见的对话交互操作，如流式数据输出、对话中断以及Markdown格式输出等。提供基础开放领域问答、项目文档摘要生成、自动代码注释生成以及自动化项目洞察分析能力。
+
+GitHub API获取原始文件，并针对长文件/长代码，预先分块，填充Prompt模版，按块依次输入。
 
 
 <img 
@@ -149,6 +148,9 @@ OSS-GPT 是集成了[DocsGPT](https://github.com/arc53/docsgpt)能力的开源�
 ## FastPR
 
 FastPR 是一项旨在简化开源项目贡献流程的功能。用户可以直接在插件提供的文档页面上修改内容，完成后插件会自动生成并提交 PR，简化贡献流程。该功能不仅支持 GitHub，还可以扩展到其他指定文档站点。
+
+OSS远程配置文件进行规则设定，根据设定规则，进行按需加载，样式定制，以及文档网站与存储库URL映射规则的定制。利用沙箱环境，定时从远端获取最新的配置文件并动态加载规则代码，无需重新更新插件。根据加载的规则代码，对页面url进行判断，是否符合规则配置。使用stackedit组件进行Markdown编辑器的开发。结合Octokit和Gitee Api，实现文档的在线编辑和贡献PR流程的自动化。
+
 
 <img 
 src="./assets/zh-CN/FastPR.png">
