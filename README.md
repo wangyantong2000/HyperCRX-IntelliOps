@@ -1,4 +1,4 @@
-<h1 align="center">Hypercrx-IntelliOps-</h1>
+<h1 align="center">Hypercrx-IntelliOps</h1>
 
 <div align="center">
 
@@ -144,14 +144,15 @@ OSS-GPT 是集成了[DocsGPT](https://github.com/arc53/docsgpt)能力的开源�
 
 
 <img 
-  src="https://private-user-images.githubusercontent.com/75050154/399601575-c1fc8510-6e44-474a-80d0-680d3f4120e4.png"/>
+ src="./assets/zh-CH/OSSGPT.png">
           
 ## FastPR
 
 FastPR 是一项旨在简化开源项目贡献流程的功能。用户可以直接在插件提供的文档页面上修改内容，完成后插件会自动生成并提交 PR，简化贡献流程。该功能不仅支持 GitHub，还可以扩展到其他指定文档站点。
 
 <img 
-src="https://private-user-images.githubusercontent.com/75050154/399601869-4fe8968e-fe25-4e08-858f-d7721db121a7.png">
+src="./assets/zh-CH/FastPR.png">
+
 
 
 ## 参与贡献
