@@ -18,7 +18,8 @@
 `Hypercrx-IntelliOps`呈现的所有数据都由[OpenDigger](https://github.com/X-lab2017/open-digger)产生。OpenDigger 是一个聚焦于开源分析的开源项目。数据会在每个月第二天更新。
 
 ## 演示视频
-![Demo Video](./复赛/演示视频.mp4)
+
+
 
 ## 可视化看板 🔥🔥🔥
 
@@ -134,7 +135,7 @@
 
 ## OSS-GPT
 
-OSS-GPT 是集成了[DocsGPT](https://github.com/arc53/docsgpt)能力的开源项目文档问答机器人。对已经支持的项目，只需打开对应的项目仓库主页，即可询问有关于该仓库的任何问题。
+OSS-GPT 引入大语言模型技术，深入探索其在 GitHub 平台中的智能化应用场景，成功实现智能洞察与分析功能。
 
 支持多种大语言模型接口，例如DeepSeek系列、OpenAI系列、本地部署在Ollama上的开源模型等符合OpenAI的接口规范的模型。填写配置，一键切换模型实例。
 OSS-GPT，使用ProChat组件进行开发，支持常见的对话交互操作，如流式数据输出、对话中断以及Markdown格式输出等。提供基础开放领域问答、项目文档摘要生成、自动代码注释生成以及自动化项目洞察分析能力。
@@ -143,7 +144,7 @@ GitHub API获取原始文件，并针对长文件/长代码，预先分块，填
 
 
 <img 
- src="./assets/zh-CN/OSSGPT.png">
+ src="./assets/zh-CN/OSS-GPT.png">
           
 ## FastPR
 
@@ -168,9 +169,9 @@ src="./assets/zh-CN/FastPR.png">
 
 ### 快速开始
 
-1. git clone https://github.com/hypertrons/hypertrons-crx
+1. git clone https://github.com/wangyantong2000/HyperCRX-IntelliOps
 
-2. cd hypertrons-crx
+2. cd HyperCRX-IntelliOps
 
 3. yarn install
 
