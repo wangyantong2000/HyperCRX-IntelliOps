@@ -144,15 +144,14 @@ OSS-GPT 是集成了[DocsGPT](https://github.com/arc53/docsgpt)能力的开源�
 
 
 <img 
- src="./assets/zh-CH/OSSGPT.png">
+ src="./assets/zh-CN/OSSGPT.png">
           
 ## FastPR
 
 FastPR 是一项旨在简化开源项目贡献流程的功能。用户可以直接在插件提供的文档页面上修改内容，完成后插件会自动生成并提交 PR，简化贡献流程。该功能不仅支持 GitHub，还可以扩展到其他指定文档站点。
 
 <img 
-src="./assets/zh-CH/FastPR.png">
-
+src="./assets/zh-CN/FastPR.png">
 
 
 ## 参与贡献
