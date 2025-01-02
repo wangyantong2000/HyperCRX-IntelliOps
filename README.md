@@ -18,8 +18,7 @@
 `Hypercrx-IntelliOps`呈现的所有数据都由[OpenDigger](https://github.com/X-lab2017/open-digger)产生。OpenDigger 是一个聚焦于开源分析的开源项目。数据会在每个月第二天更新。
 
 ## 演示视频
-
-
+https://youtu.be/LDOUelckzs0
 
 ## 可视化看板 🔥🔥🔥
 
