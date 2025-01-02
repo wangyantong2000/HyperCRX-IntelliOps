@@ -1,6 +1,4 @@
-Language : [English](./README.md) | 中文
-
-<h1 align="center">Hypercrx</h1>
+<h1 align="center">Hypercrx-IntelliOps-</h1>
 
 <div align="center">
 
@@ -24,7 +22,7 @@ Language : [English](./README.md) | 中文
 
 ## 数据来源
 
-`Hypercrx`呈现的所有数据都由[OpenDigger](https://github.com/X-lab2017/open-digger)产生。OpenDigger 是一个聚焦于开源分析的开源项目。数据会在每个月第二天更新。
+`Hypercrx-IntelliOps`呈现的所有数据都由[OpenDigger](https://github.com/X-lab2017/open-digger)产生。OpenDigger 是一个聚焦于开源分析的开源项目。数据会在每个月第二天更新。
 
 ## 可视化看板 🔥🔥🔥
 
@@ -140,11 +138,21 @@ Language : [English](./README.md) | 中文
 
 ## OSS-GPT
 
-OSS-GPT 是集成了[DocsGPT](https://github.com/arc53/docsgpt)能力的开源项目文档问答机器人。对已经支持的项目，只需打开对应的项目仓库主页，即可询问有关于该仓库的任何问题。你可以通过[issue#609](https://github.com/hypertrons/hypertrons-crx/issues/609)以使你的开源项目获得 OSS-GPT 的支持。
+OSS-GPT 是集成了[DocsGPT](https://github.com/arc53/docsgpt)能力的开源项目文档问答机器人。对已经支持的项目，只需打开对应的项目仓库主页，即可询问有关于该仓库的任何问题。
+
+主要提供问答、项目文档摘要生成、代码注释生成等多类型的智能化支持，并且支持用户与 OSS-GPT 实时对话，在输出形式上具备流式数据输出和 Markdown 格式输出的能力，最终可实现自动化的项目洞察分析，整体聚焦于利用 OSS-GPT 为项目相关操作提供智能辅助与深度分析功能。
+
 
 <img 
-  src="https://user-images.githubusercontent.com/104072573/228415232-cc81eab2-5566-4775-bf27-c385881deb20.png"
-/>
+  src="https://private-user-images.githubusercontent.com/75050154/399601575-c1fc8510-6e44-474a-80d0-680d3f4120e4.png"/>
+          
+## FastPR
+
+FastPR 是一项旨在简化开源项目贡献流程的功能。用户可以直接在插件提供的文档页面上修改内容，完成后插件会自动生成并提交 PR，简化贡献流程。该功能不仅支持 GitHub，还可以扩展到其他指定文档站点。
+
+<img 
+src="https://private-user-images.githubusercontent.com/75050154/399601869-4fe8968e-fe25-4e08-858f-d7721db121a7.png">
+
 
 ## 参与贡献
 
